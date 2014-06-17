@@ -15,8 +15,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
-  <string name="application_copyright">Kopiereg \u00A9 CyanogenMod 2013</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="application_copyright">Kopiereg \u00A9 2014 Die CyanogenMod Projek</string>
   <string name="X">X</string>
   <string name="Y">Y</string>
   <string name="arcsin">asin</string>
@@ -33,6 +33,7 @@
   <string name="hexPanel">Hex paneel</string>
   <string name="lock">Sluit bladsy</string>
   <string name="unlock">Ontsluit bladsy</string>
+  <string name="info">Inligting</string>
   <string name="copy">Kopie \"%s\"</string>
   <string name="remove_from_history">Verwyder van geskiedenis</string>
   <string name="showHistory">Wys geskiedenis</string>
@@ -63,14 +64,17 @@
   <string name="pref_theme">Tema</string>
   <string name="pref_about">Aangaande</string>
   <string name="returnToBasic">Terug na die basiese paneel</string>
+  <string name="infiniteScrolling">Oneindige blaai</string>
   <string name="clickToOpenHistory">Raak om geskiedenis oop te maak.</string>
   <string name="digitGrouping">Getal groepering</string>
   <string name="trigUnits">Trigonomie eenhede</string>
   <string name="radians">RAD</string>
   <string name="degrees">DEG</string>
-  <string name="holo">Holo</string>
-  <string name="holo_light">Lig</string>
-  <string name="holo_dark">Donker</string>
+  <string name="theme">Tema</string>
+  <string name="showDetails">Vertoon besonderhede</string>
+  <string name="floatingCalc">Swewende sakrekenaar</string>
+  <string name="vibrateOnPress">Vibreer op kliek</string>
+  <string name="showWidgetBackground">Wys legstuk agtergrond</string>
   <string name="cling_simple_title">Welkom</string>
   <string name="cling_simple_msg">Skuif links en regs om meer inhoud te bekom. Onnodige bladsye kan afgeskakel word in Instellings.</string>
   <string name="cling_matrix_title">Matrikse</string>
@@ -80,10 +84,16 @@
   <string name="cling_graph_title">Grafiek</string>
   <string name="cling_graph_msg">Grafieke sal outomaties hier verskyn. Gaan na die gevorderde paneel en bou \'n ​​funksie met behulp van X en Y.</string>
   <string name="cling_dismiss">OK</string>
-  <string name="dec_separator">.</string>
   <string name="bin_separator">\u0020</string>
   <string name="hex_separator">\u0020</string>
+  <item name="dec_separator_distance" type="integer">3</item>
+  <item name="bin_separator_distance" type="integer">4</item>
+  <item name="hex_separator_distance" type="integer">2</item>
   <string name="dot">,</string>
   <string name="matrix_separator">\u0020</string>
   <string name="easter_egg">\"Magikarp\" gebruik \"Splash\" maar niks het gebeur nie.</string>
+  <string name="glass_start">Bereken</string>
+  <string name="voice_detection_failed">Berekening het misluk. Probeer weer?</string>
+  <string name="voice_detection_repeat">Bereken weer?</string>
+  <string name="speech_helper_negative" formatted="false">Negatief %s</string>
 </resources>

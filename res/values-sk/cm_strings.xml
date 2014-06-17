@@ -15,8 +15,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
-  <string name="application_copyright">Autorské práva \u00A9 2013 The CyanogenMod Project</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="application_copyright">Autorské práva \u00A9 2014 Projekt CyanogenMod</string>
   <string name="X">X</string>
   <string name="Y">Y</string>
   <string name="arcsin">asin</string>
@@ -33,6 +33,7 @@
   <string name="hexPanel">Binárny panel</string>
   <string name="lock">Zamknúť stránku</string>
   <string name="unlock">Odomknúť stránku</string>
+  <string name="info">Informácie</string>
   <string name="copy">Kopírovať \'%s\'</string>
   <string name="remove_from_history">Odstrániť z histórie</string>
   <string name="showHistory">Zobraziť históriu</string>
@@ -63,14 +64,17 @@
   <string name="pref_theme">Téma</string>
   <string name="pref_about">O aplikácii</string>
   <string name="returnToBasic">Návrat do základného panela</string>
+  <string name="infiniteScrolling">Nekonečný posun</string>
   <string name="clickToOpenHistory">Kliknutím otvoriť históriu</string>
   <string name="digitGrouping">Zoskupenie číslic</string>
   <string name="trigUnits">Trigon. jednotky</string>
   <string name="radians">RAD</string>
   <string name="degrees">DEG</string>
-  <string name="holo">Holo</string>
-  <string name="holo_light">Svetlá</string>
-  <string name="holo_dark">Tmavá</string>
+  <string name="theme">Téma</string>
+  <string name="showDetails">Zobraziť podrobnosti</string>
+  <string name="floatingCalc">Plávajúca kalkulačka</string>
+  <string name="vibrateOnPress">Vibrovať pri kliknutí</string>
+  <string name="showWidgetBackground">Zobraziť pozadie miniaplikácie</string>
   <string name="cling_simple_title">Vitajte</string>
   <string name="cling_simple_msg">Pre zobrazenie ďalších panelov použite posunutie vľavo alebo vpravo. Nepoužívané panely je možné zakázať v nastaveniach.</string>
   <string name="cling_matrix_title">Matice</string>
@@ -80,10 +84,16 @@
   <string name="cling_graph_title">Graf</string>
   <string name="cling_graph_msg">Tu sa automaticky zobrazia grafy. V paneli rozšírené funkcie vytvorte funkciu používajúce premenné X a Y.</string>
   <string name="cling_dismiss">OK</string>
-  <string name="dec_separator">\u0020</string>
   <string name="bin_separator">\u0020</string>
   <string name="hex_separator">\u0020</string>
+  <item name="dec_separator_distance" type="integer">3</item>
+  <item name="bin_separator_distance" type="integer">4</item>
+  <item name="hex_separator_distance" type="integer">2</item>
   <string name="dot">,</string>
   <string name="matrix_separator">\u0020</string>
   <string name="easter_egg">Magikarpa použil šplechnutie, ale nič sa nestalo.</string>
+  <string name="glass_start">Výpočítať</string>
+  <string name="voice_detection_failed">Výpočet zlyhal. Skúsiť znova?</string>
+  <string name="voice_detection_repeat">Vypočítať znova?</string>
+  <string name="speech_helper_negative" formatted="false">Negatívne %s</string>
 </resources>

@@ -15,8 +15,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
-  <string name="application_copyright">Copyright \u00A9 2013 The CyanogenMod Project</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="application_copyright">Copyright \u00A9 2014 The CyanogenMod Project</string>
   <string name="X">x</string>
   <string name="Y">y</string>
   <string name="arcsin">asin</string>
@@ -33,6 +33,7 @@
   <string name="hexPanel">Δεκαεξαδικές πράξεις</string>
   <string name="lock">Κλείδωμα σελίδας</string>
   <string name="unlock">Ξεκλείδωμα σελίδας</string>
+  <string name="info">Πληροφορίες</string>
   <string name="copy">Αντιγραφή \"%s\"</string>
   <string name="remove_from_history">Αφαίρεση από το ιστορικό</string>
   <string name="showHistory">Εμφάνιση ιστορικού</string>
@@ -63,14 +64,17 @@
   <string name="pref_theme">Θέμα</string>
   <string name="pref_about">Σχετικά</string>
   <string name="returnToBasic">Επιστροφή στις βασικές πράξεις</string>
+  <string name="infiniteScrolling">Απεριόριστη κύλιση</string>
   <string name="clickToOpenHistory">Πιέστε για άνοιγμα του ιστορικού</string>
   <string name="digitGrouping">Ομαδοποίηση ψηφίων</string>
   <string name="trigUnits">Τριγ. μονάδες</string>
   <string name="radians">ΑΚΤΙΝΙΑ</string>
   <string name="degrees">ΜΟΙΡΕΣ</string>
-  <string name="holo">Holo</string>
-  <string name="holo_light">Φωτεινό</string>
-  <string name="holo_dark">Σκοτεινό</string>
+  <string name="theme">Θέμα</string>
+  <string name="showDetails">Προβολή λεπτομερειών</string>
+  <string name="floatingCalc">Αιωρούμενη αριθμομηχανή</string>
+  <string name="vibrateOnPress">Δόνηση κατά το πάτημα</string>
+  <string name="showWidgetBackground">Εμφάνιση φόντου widget</string>
   <string name="cling_simple_title">Καλως ήλθατε</string>
   <string name="cling_simple_msg">Σύρετε προς τα αριστερά και δεξιά για να αποκτήσετε πρόσβαση σε περισσότερο περιεχόμενο. Οι περιττές σελίδες μπορούν να απενεργοποιηθούν από τις Ρυθμίσεις.</string>
   <string name="cling_matrix_title">Πίνακες</string>
@@ -80,10 +84,16 @@
   <string name="cling_graph_title">Γραφικές παραστάσεις</string>
   <string name="cling_graph_msg">Οι γραφικές παραστάσεις θα προβάλλονται αυτόματα εδώ. Πηγαίνετε στο πάνελ σύνθετων συναρτήσεων και φτιάξτε μια συνάρτηση χρησιμοποιώντας Χ και Υ.</string>
   <string name="cling_dismiss">OK</string>
-  <string name="dec_separator">,</string>
   <string name="bin_separator">\u0020</string>
   <string name="hex_separator">\u0020</string>
+  <item name="dec_separator_distance" type="integer">3</item>
+  <item name="bin_separator_distance" type="integer">4</item>
+  <item name="hex_separator_distance" type="integer">2</item>
   <string name="dot">.</string>
   <string name="matrix_separator">,</string>
   <string name="easter_egg">Το Magikarp χρησιμοποίησε Splash αλλά δεν έγινε τίποτα.</string>
+  <string name="glass_start">Υπολογισμός</string>
+  <string name="voice_detection_failed">Ο υπολογισμός απέτυχε. Δοκιμάστε ξανά;</string>
+  <string name="voice_detection_repeat">Υπολογισμός ξανά;</string>
+  <string name="speech_helper_negative" formatted="false">Αρνητικό %s</string>
 </resources>

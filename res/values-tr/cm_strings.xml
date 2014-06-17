@@ -15,8 +15,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
-  <string name="application_copyright">Telif hakkı \u00A9 2013 CyanogenMod Projesi</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="application_copyright">Telif Hakkı \u00A9 2014 CyanogenMod Projesi</string>
   <string name="X">X</string>
   <string name="Y">Y</string>
   <string name="arcsin">asin</string>
@@ -33,10 +33,11 @@
   <string name="hexPanel">Taban aritmetiği paneli</string>
   <string name="lock">Sayfayı kilitle</string>
   <string name="unlock">Sayfanın kilidini kaldır</string>
+  <string name="info">Bilgi</string>
   <string name="copy">Kopyala: \'%s\'</string>
   <string name="remove_from_history">Geçmişten sil</string>
   <string name="showHistory">Geçmişi göster</string>
-  <string name="hideHistory">Geçmişi sil</string>
+  <string name="hideHistory">Geçmişi gizle</string>
   <string name="settings">Ayarlar</string>
   <string name="det">det</string>
   <string name="eigenvalue">Eigen</string>
@@ -63,27 +64,36 @@
   <string name="pref_theme">Tema</string>
   <string name="pref_about">Hakkında</string>
   <string name="returnToBasic">Basit panele dön</string>
+  <string name="infiniteScrolling">Sonsuz kaydırma</string>
   <string name="clickToOpenHistory">Geçmişi açmak için dokunun</string>
   <string name="digitGrouping">Basamak gruplandırması</string>
   <string name="trigUnits">Trigonometrik birimler</string>
   <string name="radians">RAD</string>
   <string name="degrees">DEG</string>
-  <string name="holo">Holo</string>
-  <string name="holo_light">Aydınlık</string>
-  <string name="holo_dark">Karanlık</string>
+  <string name="theme">Tema</string>
+  <string name="showDetails">Ayrıntıları göster</string>
+  <string name="floatingCalc">Yüzen hesap makinesi</string>
+  <string name="vibrateOnPress">Dokununca titre</string>
+  <string name="showWidgetBackground">Widget arkaplanını göster</string>
   <string name="cling_simple_title">Hoş geldiniz</string>
   <string name="cling_simple_msg">Daha fazla içeriğe erişmek için sağa ya da sola sürekleyin. Gereksiz sayfalar Ayarlar\'dan devre dışı bırakılabilir.</string>
   <string name="cling_matrix_title">Matrisler</string>
   <string name="cling_matrix_msg">Matris oluşturmak ve çözümlemek için buraya dokunun.</string>
   <string name="cling_hex_title">Tabanı değiştir</string>
-  <string name="cling_hex_msg">Onluk (dec), ikilik (bin) ve on altılık (hex) sayı tabanları arasından geçiş yapın.\n\nDikkat: Eğer yanlış sonuçlar aldığınızı düşünüyorsanız muhtemelen yanlış tabandasınızdır. Varsayılan olan onluktur.</string>
+  <string name="cling_hex_msg">Onluk (dec), ikilik (bin) ve on altılık (hex) sayı tabanları arasından geçiş yapın.\n\nDikkat: Eğer yanlış sonuçlar aldığınızı düşünüyorsanız muhtemelen yanlış tabandasınızdır. Varsayılan taban onluktur.</string>
   <string name="cling_graph_title">Grafik</string>
   <string name="cling_graph_msg">Grafikler otomatik olarak burada görüntülenecek. X ve Y kullanarak bir fonksiyon yaratmak için gelişmiş paneline gidebilirsiniz.</string>
   <string name="cling_dismiss">Tamam</string>
-  <string name="dec_separator">,</string>
   <string name="bin_separator">\u0020</string>
   <string name="hex_separator">\u0020</string>
+  <item name="dec_separator_distance" type="integer">3</item>
+  <item name="bin_separator_distance" type="integer">4</item>
+  <item name="hex_separator_distance" type="integer">2</item>
   <string name="dot">.</string>
   <string name="matrix_separator">,</string>
   <string name="easter_egg">Magikarp Başlangıcı kullandı ancak hiç bir şey olmadı.</string>
+  <string name="glass_start">Hesapla</string>
+  <string name="voice_detection_failed">Hesaplama başarısız. Tekrar denensin mi?</string>
+  <string name="voice_detection_repeat">Tekrar hesaplansın mı?</string>
+  <string name="speech_helper_negative" formatted="false">Negatif %s</string>
 </resources>

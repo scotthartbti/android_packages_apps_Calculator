@@ -15,8 +15,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
-  <string name="application_copyright">Copyright \u00A9 2013 CyanogenMod-projektet</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="application_copyright">Copyright \u00A9 2014 The CyanogenMod Project</string>
   <string name="X">X</string>
   <string name="Y">Y</string>
   <string name="arcsin">asin</string>
@@ -33,6 +33,7 @@
   <string name="hexPanel">Hexpanel</string>
   <string name="lock">Lås side</string>
   <string name="unlock">Lås side op</string>
+  <string name="info">Info</string>
   <string name="copy">Kopiér \"%s\"</string>
   <string name="remove_from_history">Fjern fra historik</string>
   <string name="showHistory">Vis Historik</string>
@@ -63,14 +64,17 @@
   <string name="pref_theme">Tema</string>
   <string name="pref_about">Om</string>
   <string name="returnToBasic">Vend tilbage til det grundlæggende panel</string>
+  <string name="infiniteScrolling">Uendelig rulning</string>
   <string name="clickToOpenHistory">Klik for at åbne historik</string>
   <string name="digitGrouping">Gruppering af cifre</string>
   <string name="trigUnits">Trig. enheder</string>
   <string name="radians">RAD</string>
   <string name="degrees">GRD</string>
-  <string name="holo">Holo</string>
-  <string name="holo_light">Lys</string>
-  <string name="holo_dark">Mørk</string>
+  <string name="theme">Tema</string>
+  <string name="showDetails">Vis detaljer</string>
+  <string name="floatingCalc">Flydende lommeregner</string>
+  <string name="vibrateOnPress">Vibrér ved klik</string>
+  <string name="showWidgetBackground">Vis widget-baggrund</string>
   <string name="cling_simple_title">Velkommen</string>
   <string name="cling_simple_msg">Glid til venstre og højre for at tilgå mere indhold. Unødvendige sider kan slås fra i Indstillinger.</string>
   <string name="cling_matrix_title">Matricer</string>
@@ -80,10 +84,16 @@
   <string name="cling_graph_title">Graf</string>
   <string name="cling_graph_msg">Grafer vil automatisk vises her. Gå til det avancerede panel og byg en funktion vha. X og Y.</string>
   <string name="cling_dismiss">OK</string>
-  <string name="dec_separator">,</string>
   <string name="bin_separator">\u0020</string>
   <string name="hex_separator">\u0020</string>
+  <item name="dec_separator_distance" type="integer">3</item>
+  <item name="bin_separator_distance" type="integer">4</item>
+  <item name="hex_separator_distance" type="integer">2</item>
   <string name="dot">.</string>
   <string name="matrix_separator">,</string>
   <string name="easter_egg">Magikarp brugte Splash, men intet skete.</string>
+  <string name="glass_start">Beregn</string>
+  <string name="voice_detection_failed">Beregningen mislykkedes. Prøv igen?</string>
+  <string name="voice_detection_repeat">Beregn igen?</string>
+  <string name="speech_helper_negative" formatted="false">Negativ %s</string>
 </resources>
